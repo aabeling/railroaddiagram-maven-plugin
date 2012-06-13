@@ -1,6 +1,5 @@
 The SyntaxDiagramMojo can be configured like this:
 
-<pre>
 <plugins>
   <plugin>
     <groupId>de.banapple.maven</groupId>
@@ -11,4 +10,8 @@ The SyntaxDiagramMojo can be configured like this:
     </configuration>
   </plugin>
 </plugins>
-</pre>
+
+You will need an antlrworks artifact in your maven repository.
+I have not found any repository which includes this artifact, so
+you will have to install it yourself. 
+The plugin uses org.antlr:antlrworks:1.4.3
