@@ -11,7 +11,9 @@ The SyntaxDiagramMojo can be configured like this:
   </plugin>
 </plugins>
 
-You will need an antlrworks artifact in your maven repository.
-I have not found any repository which includes this artifact, so
-you will have to install it yourself. 
-The plugin uses org.antlr:antlrworks:1.4.3
+Usage:
+# mvn antlr:generate
+
+This will create an index.html and image files in the folder
+target/antlrdiagrams 
+by default.
