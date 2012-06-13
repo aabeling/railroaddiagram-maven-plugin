@@ -1,1 +1,14 @@
-http://docs.codehaus.org/display/MAVENUSER/Write+your+own+report+plugin
+The SyntaxDiagramMojo can be configured like this:
+
+<pre>
+<plugins>
+  <plugin>
+    <groupId>de.banapple.maven</groupId>
+    <artifactId>antlr-maven-plugin</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <configuration>
+      <grammarFile>src/main/antlr/mygrammar.g</grammarFile>
+    </configuration>
+  </plugin>
+</plugins>
+</pre>
