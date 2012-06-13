@@ -8,6 +8,18 @@
   <name>antlr-maven-plugin Maven Mojo</name>
   <url>http://maven.apache.org</url>
   
+  <repositories>
+    <repository>
+      <id>aabeling-mvn-repo</id>
+      <name>aabeling-mvn-repo</name>
+      <layout>default</layout>
+      <url>https://raw.github.com/aabeling/aabeling-mvn-repo/master/releases</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+  
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
