@@ -3,7 +3,7 @@ The SyntaxDiagramMojo can be configured like this:
 <plugins>
   <plugin>
     <groupId>de.banapple.maven</groupId>
-    <artifactId>antlr-maven-plugin</artifactId>
+    <artifactId>railroaddiagram-maven-plugin</artifactId>
     <version>1.0-SNAPSHOT</version>
     <configuration>
       <grammarFile>src/main/antlr/mygrammar.g</grammarFile>
