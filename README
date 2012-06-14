@@ -12,7 +12,7 @@ The SyntaxDiagramMojo can be configured like this:
 </plugins>
 
 Usage:
-# mvn antlr:generate
+# mvn railroaddiagram:generate
 
 This will create an index.html and image files in the folder
 target/antlrdiagrams 
